@@ -6,6 +6,6 @@ The recommendation model works by processing a dataset of Spotify tracks, extrac
 
 The dataset used extends until 2020, so recommendations are limited to songs available in that timeframe. While this provides a solid base for experimentation, the accuracy and diversity of the results depend on the completeness of the dataset. Expanding the dataset in the future would allow for even more relevant and up-to-date recommendations.  
 
-The implementation is done in Python using libraries like pandas, numpy, and scikit-learn, with Jupyter Notebooks for analysis and visualization. I also created a simple interface where users can input a track name and explore recommendations interactively. For demonstration purposes, the system can take a song such as *“Shape of You”* and return a list of other tracks with similar audio patterns.  
+The implementation is done in Python using libraries like pandas, numpy, and scikit-learn. I also created a simple interface where users can input a track name and explore recommendations interactively. For demonstration purposes, the system can take a song such as *“Shape of You”* and return a list of other tracks with similar audio patterns.  
 
 The project demonstrates how structured music data can be transformed into practical recommendation systems. Looking ahead, I plan to extend this work by incorporating playlist-level recommendations, clustering-based methods, and potentially integrating with the Spotify API to allow for real-time, personalized suggestions.  
